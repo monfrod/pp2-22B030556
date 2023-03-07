@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e823a93-d9dd-4c49-bce9-8f7f0cf89d49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tsis6/alltrue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsis6/palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsis6/square root.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsis6/uplow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsis6/multiply.py" beforeDir="false" afterPath="$PROJECT_DIR$/tsis6/multiply.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
