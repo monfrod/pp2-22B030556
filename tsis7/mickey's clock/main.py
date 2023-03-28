@@ -22,11 +22,11 @@ scale_minute=pygame.transform.scale(
     minute, (minute.get_width() // 2,
                minute.get_height() // 2))
 
-done = False
-while not done:
+running = True
+while running:
         for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                        done = True
+                        running = False
         screen.fill((255,255,255))
         screen.blit(scale_clock, clockr)
         t=datetime.datetime.now()
@@ -34,7 +34,7 @@ while not done:
         rots = pygame.transform.rotate(scale_second, (-6*seconds)+90)
         rots_rect = rots.get_rect(center=(540, 360))
         screen.blit(rots, rots_rect)
-        rotm = pygame.transform.rotate(scale_minute, (-6*minutes)+90) #(-6*minutes-0.1*seconds)+90
+        rotm = pygame.transform.rotate(scale_minute, (-6*minutes)+90)
         rotm_rect = rotm.get_rect(center=(540, 360))
         screen.blit(rotm, rotm_rect)
         pygame.display.update()
