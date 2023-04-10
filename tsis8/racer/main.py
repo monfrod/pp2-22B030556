@@ -3,7 +3,7 @@ import random
 import time
 clock = pygame.time.Clock() #FPS
 pygame.init()
-x, y = 190, 500
+x, y = 190, 475
 screen_width = 400 #size our screen
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
