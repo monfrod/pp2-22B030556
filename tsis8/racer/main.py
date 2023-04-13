@@ -8,12 +8,12 @@ screen_width = 400 #size our screen
 screen_height = 600
 screen = pygame.display.set_mode((screen_width, screen_height))
 screen.fill("White") #white screen
-player = pygame.image.load("Player.png") #load player
-enemy = pygame.image.load("Enemy.png") #load enemy
+player = pygame.image.load("../../tsis9/racer/Player.png") #load player
+enemy = pygame.image.load("../../tsis9/racer/Enemy.png") #load enemy
 speed_p = 8 #speed for our player
 speed_e = 5 #speed for enemy
-bc = pygame.image.load("AnimatedStreet.png") #load our background
-pygame.mixer_music.load("crash.wav") #load our sound
+bc = pygame.image.load("../../tsis9/racer/AnimatedStreet.png") #load our background
+pygame.mixer_music.load("../../tsis9/racer/crash.wav") #load our sound
 ey = 0
 ex = random.randint(0, screen_width-93)
 shrift = pygame.font.SysFont("serif", 40)
