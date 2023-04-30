@@ -18,8 +18,8 @@ dy1 = 0
 score = 0
 shrift = pygame.font.SysFont("serif", 35)
 
-foodx = random.randint(0, sc_weight / 20)*20
-foody = random.randint(0, sc_height / 20)*20
+foodx = random.randint(0, (sc_weight-20) / 20)*20
+foody = random.randint(0, (sc_height-20) / 20)*20
 
 def our_snake(snake_list):
     for x in snake_list:
@@ -72,4 +72,4 @@ while running:
         foody = round(random.randrange(0, sc_height - 20) / 20.0) * 20.0
         Length_snake += 1
         score += 1
-    clock.tick(15)
+    clock.tick(10)
