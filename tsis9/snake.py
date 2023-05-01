@@ -21,6 +21,7 @@ shrift = pygame.font.SysFont("serif", 35)
 foodx = random.randint(0, (sc_weight-20) / 20)*20
 foody = random.randint(0, (sc_height-20) / 20)*20
 
+
 def our_snake(snake_list):
     for x in snake_list:
         pygame.draw.rect(screen, BLACK, [x[0], x[1], 20, 20])

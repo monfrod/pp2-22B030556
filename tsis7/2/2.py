@@ -32,6 +32,7 @@ while running:
                 sound[i].play()
             elif event.key == pygame.K_UP:
                 sound[i].play()
+
             elif event.key == pygame.K_DOWN:
                 sound[i].stop()
             if i == 0:
