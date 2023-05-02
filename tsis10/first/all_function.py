@@ -50,6 +50,6 @@ def update_phone_number(phone_number_id, number):
     conn.commit
 
 def delete_phone_number(phone_number_id):
-    cur.execute("DELETE FROM phone_numbers WHERE id = %s", (phone_number_id,))
+    cur.execute("DELETE FROM phone_numbers WHERE contact_id = %s", (phone_number_id,))
     conn.commit()
 

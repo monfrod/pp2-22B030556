@@ -1,5 +1,5 @@
 import psycopg2
-
+from psycopg2 import errors
 import csv
 
 from database import conn
@@ -30,9 +30,11 @@ def start():
             contact_id = input("Enter contact id: ")
             delete_contact(contact_id)
         if a == 3:
-            number = input("Enter number: ")
-            contact_id = input("Enter contact id: ")
-            create_phone_number(contact_id, number)
+            number = input("Enter a number: ")
+            contact_id = int(input("Enter id of contact: "))
+            delete_phone_number(contact_id)
+            create_phone_number(contact_id ,number)
+
         if a == 4:
             data = get_all_contacts()
             print()
